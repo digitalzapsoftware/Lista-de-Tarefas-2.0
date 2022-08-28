@@ -9,3 +9,4 @@ export const Theme: React.FC = ({ children }:any) => {
         <ThemeProvider theme={theme}>{children}</ThemeProvider>
     )
 }
+
