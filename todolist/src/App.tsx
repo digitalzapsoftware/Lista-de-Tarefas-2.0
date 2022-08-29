@@ -1,11 +1,15 @@
 import React from 'react';
+import { Routes } from 'react-router-dom';
 import './App.css';
+import { Theme } from './themes/theme';
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <Theme>
+
+      <Routes />
+      
+    </Theme>
   );
 }
 
