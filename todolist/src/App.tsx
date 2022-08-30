@@ -7,7 +7,7 @@ export const App = () => {
   return (
     <Theme>
 
-      <Routes />
+      <Routes/>
       
     </Theme>
   );
