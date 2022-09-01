@@ -9,7 +9,7 @@ export const Rotas = () => {
               <Route path='/'>
                 <Home/>
               </Route>
-              <Route>
+              <Route path='*'>
                 <Navigate to='/'/>
               </Route>
            </Routes>
